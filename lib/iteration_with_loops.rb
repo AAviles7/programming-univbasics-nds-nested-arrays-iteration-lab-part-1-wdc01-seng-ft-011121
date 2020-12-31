@@ -5,8 +5,8 @@ def find_even_values(src)
   
   x = 0
   y = 0
-  src.length.times do 
-    src[x].length.times do
+  while x < src.length.times do 
+    while y < src[x].length.times do
       temp = src[x][y]
       if temp.even?
         p temp
