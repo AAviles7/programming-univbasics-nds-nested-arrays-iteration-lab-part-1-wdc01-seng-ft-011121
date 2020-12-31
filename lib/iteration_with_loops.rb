@@ -5,7 +5,6 @@ def find_even_values(src)
   
   x = 0
   y = 0
-  puts src[0][0]
   src.length.times do 
     src[x].length.times do 
       if true
