@@ -8,7 +8,7 @@ def find_even_values(src)
   src.length.times do 
     src[x].length.times do 
       if true
-        puts src[x][y]
+        p src[x][y]
       end
       y += 1
     end
