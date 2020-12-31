@@ -9,7 +9,7 @@ def find_even_values(src)
     src[x].length.times do
       temp = src[x][y]
       if temp.even?
-        puts temp
+        p temp
       end
       y += 1
     end
